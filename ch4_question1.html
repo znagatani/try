@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Chapter 4, Question 1</title>
+	</head>
+	<body>
+		<script>	
+			function writeTimesTable(timesTable, timesByStart, timesByEnd) {
+				for (; timesByStart <= timesByEnd; timesByStart++) {
+					document.write(timesTable + " * " + timesByStart + " = "
+					+ timesTable * timesByStart + "<br/ >");
+				}
+			}
+			
+			writeTimesTable(4, 1, 3496);
+		</script>
+	</body>
+</html>
